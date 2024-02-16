@@ -300,12 +300,15 @@ user:
 top_bars:
   - title: home
     url: /
+  - title: archives
+    url: /archives/
+  - title: archives
+    url: /#
     children:
       - title: archives2
         url: /archives2/
-  - title: archives
-    url: /archives/
-    noswup: true
+      - title: archives2
+        url: /archives2/
 ```
 
 ```yaml-vue [主题默认配置]
